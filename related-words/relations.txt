@@ -1,0 +1,16 @@
+alphabets1
+	a
+	b
+	c
+alphabets2
+	d
+	e
+	f
+alphabets3
+	g
+	h
+	i
+alphabets4
+	b
+	e
+	g

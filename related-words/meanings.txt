@@ -1,0 +1,20 @@
+a
+	apple
+b
+	ball
+c
+	cat
+d
+	dawn
+e
+	elephent
+f
+	flower
+g
+	graveyard
+h
+	higher
+i
+	indias
+g
+	gift

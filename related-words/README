@@ -1,0 +1,55 @@
+This is the README file for the relatedWords ???
+=================================================
+* This contains
+   * two normal text files(meanings.txt, relations.txt)
+   * two python modules(relatedWords.py, ui2.py)
+
+* The text files
+=================
+The text files contain a list of headings and several list below each headings.
+e.g
+heading1
+	list1 of heading1
+	list2 of heading1
+heading2
+	list1 of heading2
+
+The headings are given normally.
+The lists are prefixed with a 'tab' character.
+
+WARNING : Do not leave any empty lines in the text files.This currently leads to program crash. Please observe the text files and follow the same rules.
+
+** relations.txt
+   * This file contains 'related word'(heading) and words(lists) that are related by the related word.
+
+** meanings.txt
+   * This file contains 'word'(heading) and meanings(lists) for that particulr word.
+
+* Python files
+=============
+ ** relatedWords.py
+    This contains functions that map the related words, words, meanings from the
+     text files.
+ ** ui2.py
+	This mainly contains the ui related functions. This imports the relatedWords.py module , shows output and gets input from user. 
+
+running the Program
+=====================
+* to start the program
+  run the following command
+-------------------
+python ui2.py
+-------------------
+
+* next you will be show the main screen which contains the related word, meanings for the words to be gussed.
+   * You shold input a number to go into subscreen to enter the word.
+   * or You should enter the following
+     q - quit
+     p - previous related word
+     n - next related word
+     r - refresh the screen(show the screen again)
+* after entering into the sub screen
+  * type the word
+  * press any of the keys
+    q - quit or go back to main screen
+    r - refresh or enter the input again
